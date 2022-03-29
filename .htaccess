@@ -1,0 +1,9 @@
+### Rewrite Rules Added by CyberPanel Rewrite Rule Generator
+
+RewriteEngine On
+RewriteCond %{HTTPS}  !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+### End CyberPanel Generated Rules.
+
+cat: /home/modsgalaxy.site/public_html/.htaccess: No such file or directory
